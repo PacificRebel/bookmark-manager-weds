@@ -11,7 +11,7 @@ class Bookmarks < Sinatra::Base
     # Print the ENV variable
     # p ENV
     @bookmarks = Bookmark.all
-    erb :'bookmarks/index'
+    erb :bookmarks
   end
 
   get '/bookmarks/new' do
@@ -19,12 +19,11 @@ class Bookmarks < Sinatra::Base
   end
 
   post '/bookmarks' do
-    url = params['url']
-    connection = PG.connect(dbname: 'bookmark_manager_test')
-    connection.exec("INSERT INTO bookmarks (url) VALUES('#{url}')")
+    Bookmark.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
     # p "Form data submitted to the /bookmarks route!"
     # p params
+
   end
 
   run! if app_file == $0

@@ -5,6 +5,8 @@
 2. Create the database using the ```psql``` command ```CREATE DATABASE bookmark_manager;```
 3. Connect to the database using the ```psql``` command ```\c bookmark_manager;```
 4. Run the query we have saved in the file ```01_create_bookmarks_table.sql```  
+5. Add column (in this case 'title'): ALTER TABLE bookmarks ADD COLUMN title VARCHAR(60);
+
 
 # How to create test database
 $> psql
