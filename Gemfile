@@ -8,3 +8,4 @@ gem "rspec"
 gem "sinatra"
 gem 'simplecov', require: false
 gem 'simplecov-console', require: false
+gem 'nokogiri', '>= 1.10.4'
