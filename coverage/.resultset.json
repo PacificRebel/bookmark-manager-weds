@@ -1,6 +1,17 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/heli/bookmark_manager2/spec/features/creating_bookmarks_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
       "/Users/heli/bookmark_manager2/spec/features/homepage_spec.rb": [
         1,
         1,
@@ -15,6 +26,9 @@
         1,
         1,
         1,
+        null,
+        null,
+        null,
         null,
         null,
         1,
@@ -49,9 +63,17 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1570549063
+    "timestamp": 1570614469
   }
 }
