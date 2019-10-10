@@ -123,6 +123,16 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/heli/bookmark_manager2/spec/database_helpers.rb": [
@@ -134,6 +144,6 @@
         null
       ]
     },
-    "timestamp": 1570693993
+    "timestamp": 1570694748
   }
 }

@@ -28,9 +28,8 @@ enable :sessions, :method_override
   end
 
   delete '/bookmarks/:id' do
-    connection = PG.connect(dbname: 'bookmark_manager_test')
-    connection.exec("DELETE FROM bookmarks WHERE id = #{params['id']}")
-    redirect '/bookmarks'    
+    Bookmark.delete(id: params[:id])
+    redirect '/bookmarks'
   end
 
   run! if app_file == $0
