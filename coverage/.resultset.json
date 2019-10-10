@@ -35,6 +35,20 @@
         null,
         null
       ],
+      "/Users/heli/bookmark_manager2/spec/features/deleting_a_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/heli/bookmark_manager2/spec/features/homepage_spec.rb": [
         1,
         1,
@@ -120,6 +134,6 @@
         null
       ]
     },
-    "timestamp": 1570634510
+    "timestamp": 1570693993
   }
 }

@@ -3,6 +3,8 @@ require './lib/bookmark'
 
 class Bookmarks < Sinatra::Base
 
+enable :sessions, :method_override
+
   get '/' do
     "Bookmark Manager"
   end
@@ -23,7 +25,12 @@ class Bookmarks < Sinatra::Base
     redirect '/bookmarks'
     # p "Form data submitted to the /bookmarks route!"
     # p params
+  end
 
+  delete '/bookmarks/:id' do
+    connection = PG.connect(dbname: 'bookmark_manager_test')
+    connection.exec("DELETE FROM bookmarks WHERE id = #{params['id']}")
+    redirect '/bookmarks'    
   end
 
   run! if app_file == $0
