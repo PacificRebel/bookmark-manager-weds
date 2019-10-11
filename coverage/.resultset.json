@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/heli/bookmark_manager2/spec/features/add_title_spec.rb": [
+      "/Users/heli/Projects/bookmark-manager-weds/spec/features/add_title_spec.rb": [
         null,
         null,
         null,
@@ -23,7 +23,7 @@
         null,
         null
       ],
-      "/Users/heli/bookmark_manager2/spec/features/creating_bookmarks_spec.rb": [
+      "/Users/heli/Projects/bookmark-manager-weds/spec/features/creating_bookmarks_spec.rb": [
         1,
         1,
         1,
@@ -35,7 +35,7 @@
         null,
         null
       ],
-      "/Users/heli/bookmark_manager2/spec/features/deleting_a_bookmark_spec.rb": [
+      "/Users/heli/Projects/bookmark-manager-weds/spec/features/deleting_a_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -49,7 +49,7 @@
         null,
         null
       ],
-      "/Users/heli/bookmark_manager2/spec/features/homepage_spec.rb": [
+      "/Users/heli/Projects/bookmark-manager-weds/spec/features/homepage_spec.rb": [
         1,
         1,
         1,
@@ -57,7 +57,7 @@
         null,
         null
       ],
-      "/Users/heli/bookmark_manager2/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/heli/Projects/bookmark-manager-weds/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -80,7 +80,7 @@
         null,
         null
       ],
-      "/Users/heli/bookmark_manager2/spec/unit/bookmark_spec.rb": [
+      "/Users/heli/Projects/bookmark-manager-weds/spec/unit/bookmark_spec.rb": [
         1,
         1,
         1,
@@ -135,15 +135,40 @@
         null,
         null
       ],
-      "/Users/heli/bookmark_manager2/spec/database_helpers.rb": [
+      "/Users/heli/Projects/bookmark-manager-weds/spec/database_helpers.rb": [
         1,
         null,
         1,
         1,
         1,
+        null
+      ],
+      "/Users/heli/Projects/bookmark-manager-weds/spec/unit/database_connection_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1570694748
+    "timestamp": 1570802306
   }
 }

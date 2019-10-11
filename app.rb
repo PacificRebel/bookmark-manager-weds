@@ -1,5 +1,7 @@
+require 'pg'
 require 'sinatra/base'
 require './lib/bookmark'
+require './database_connection_setup'
 
 class Bookmarks < Sinatra::Base
 
